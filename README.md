@@ -1,2 +1,2 @@
-# api.v1
-Ilkbyte.com API v1
+# api.ilkbyte.com
+Ilkbyte.com API örnek kodlarını repo da bulabilir, dokümanlara Wiki üzerinden erişebilirsiniz. Tüm içeriğimiz **Türkçe** olarak yayınlanmaktadır.
