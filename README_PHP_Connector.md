@@ -21,7 +21,7 @@ API geliştirildikçe, bu repository de geliştirilmeye devam edilecektir, şimd
 
 **Temel Gereksinimler :**
 
-1. PHP [7.2|7.3] test edildi. ([7.4] test edilecek.)
+1. PHP 7.2 ve üstü [7.2|7.3|7.4] test edildi.
 2. https://getcomposer.org/download/ adresinden işlemleri takip edin.
 3. git
 4. [ilkbyte](https://www.ilkbyte.com) müşteri hesabı (api bilgilerinin elde edileceği yer.)
@@ -308,7 +308,14 @@ array (size=4)
 Belirttiğiniz sunucunun temel durumunu döndüren method.
 
 ```php
-// eklenecek...
+/var/www/ilkbytephpapi/PhpApiConnector/example/serverStatus.php:21:
+array (size=6)
+  'service' => string 'Active' (length=6)
+  'status' => string 'Unknow' (length=6)
+  'ipv4' => string 'x.x.x.x' (length=13)
+  'ipv6' => string 'xxxx:xxxx:x:xx::xx:x' (length=20)
+  'bandwidth_limit' => int 1073741824000
+  'bandwidth_usage' => int 573950896
 ```
 
 ---
